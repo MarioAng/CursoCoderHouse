@@ -1,0 +1,178 @@
+/* Formato a todo el body */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cabera, formato  */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+.d_auto_texto {
+    background-color: black;
+    color: white;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+
+.nav__links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+    background-color: red;
+}
+
+.titulo_formulario {
+    vertical-align: middle;
+}
+
+
+.titulo_formulario {
+    align-items: center;
+}
+
+/* CONTENEDOR CARDS GRUPAL */
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+/* CONTENDER CARD INDIVIDUAL */
+.grid_container {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 240px;
+}
+
+/* CONTENEDOR CARD TEXTO SUPERIOR */
+
+.card_max_ilimitado {
+    text-align: center;
+    padding: 10px;
+}
+
+.card_max_ilimitado_text_1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* CONTENEDOR CARD TEXTO TODO ILIMITADO */
+
+.todo_ilimitado {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;    
+}
+
+/* CONTENEDOR CARD TEXTO ALTA VELOCIDAD */
+
+.card_max_ilimitado_text_2 {
+    font-size: 28px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.alta_velocidad {
+    text-align: center;
+    padding: 15px;
+}
+
+/* CONTENEDOR DE BOTON ME INTERESA */
+
+.btn__interesa {
+    position: relative;
+    display: inline-block;
+    border: 2px solid red;
+    padding: 10px 50px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+/* CONTENEDOR EQUIPOS MAS VENDIDOS */
+.container_equipos {
+    background-color: red;
+}
+
+.equipos {
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.fotos {
+    display: grid;
+    grid-template-areas: 
+    "cel_1 cel_2 cel_3"
+    "car_cel_1 car_cel_2 car_cel_3";
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+.car_cel_1, .car_cel_2, .car_cel_3  {
+    background-color: white;
+    margin: 30px;
+    padding: 40px;
+}
+
+
+/* CONTENEDOR TRIPLE GIGAS */
+.triple_gigas {
+    text-align: center;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.video_youtube {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
+
+
